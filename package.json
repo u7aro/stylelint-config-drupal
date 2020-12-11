@@ -1,0 +1,26 @@
+{
+  "name": "stylelint-config-drupal",
+  "version": "1.0.0",
+  "description": "Drupal stylelint configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u7aro/stylelint-config-drupal.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "drupal"
+  ],
+  "author": "Yutaro Ohno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u7aro/stylelint-config-drupal/issues"
+  },
+  "homepage": "https://github.com/u7aro/stylelint-config-drupal#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-no-browser-hacks": "^1.2.1",
+    "stylelint-order": "^4.0.0"
+  }
+}
