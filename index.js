@@ -462,7 +462,7 @@ module.exports = {
     "selector-pseudo-element-colon-notation": null,
     "shorthand-property-no-redundant-values": null,
     "string-quotes": "double",
-    "unit-allowed-list": ["deg", "em", "ex", "fr", "ms", "rem", "%", "s", "px", "vw", "vh"],
+    "unit-allowed-list": ["ch", "deg", "em", "ex", "fr", "ms", "rem", "%", "s", "px", "vw", "vh"],
     "value-keyword-case": ["lower", {
       "ignoreProperties": [
         "--font-family",
@@ -471,4 +471,3 @@ module.exports = {
     }]
   }
 };
-
