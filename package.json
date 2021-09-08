@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-drupal",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Drupal stylelint configuration",
   "main": "index.js",
   "repository": {
@@ -20,7 +20,6 @@
   "homepage": "https://github.com/u7aro/stylelint-config-drupal#readme",
   "dependencies": {
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-no-browser-hacks": "^1.2.1",
     "stylelint-order": "^4.0.0"
   }
 }

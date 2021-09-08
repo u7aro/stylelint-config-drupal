@@ -3,7 +3,6 @@
 module.exports = {
   "extends": "stylelint-config-standard",
   "plugins": [
-    "stylelint-no-browser-hacks/lib",
     "stylelint-order"
   ],
   "rules": {
@@ -447,16 +446,6 @@ module.exports = {
       "font-smooth",
       "line-height"
     ],
-    "plugin/no-browser-hacks": [true, {
-      "browsers": [
-        "ie >= 9",
-        "edge >= 13",
-        "firefox >= 5",
-        "opera >= 12",
-        "safari >= 5",
-        "chrome >= 56"
-      ]
-    }],
     "property-no-unknown": null,
     "rule-empty-line-before": null,
     "selector-pseudo-element-colon-notation": null,
