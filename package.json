@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-drupal",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "description": "Drupal stylelint configuration",
   "main": "index.js",
   "repository": {
