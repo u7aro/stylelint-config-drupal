@@ -20,7 +20,6 @@
   "homepage": "https://github.com/u7aro/stylelint-config-drupal#readme",
   "dependencies": {
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-no-browser-hacks": "^1.2.1",
     "stylelint-order": "^4.0.0"
   }
 }
