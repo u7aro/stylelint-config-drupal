@@ -19,13 +19,13 @@
   },
   "homepage": "https://github.com/u7aro/stylelint-config-drupal#readme",
   "dependencies": {
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0"
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "stylelint": "^13.0.0"
+    "stylelint": "^14.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.0.0"
+    "stylelint": "^14.0.0"
   }
 }
