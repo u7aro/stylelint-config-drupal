@@ -1,0 +1,15 @@
+/**
+ * @file
+ * Format media queries test.
+ *
+ * @see https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#s-media-queries
+ */
+
+@media screen and (min-width: 28.125rem) { /* 450px */
+  #page {
+    margin-right: 20px;
+    margin-right: 1.25rem;
+    margin-left: 20px;
+    margin-left: 1.25rem;
+  }
+}

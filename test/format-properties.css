@@ -1,0 +1,92 @@
+/**
+ * @file
+ * Format properties test.
+ *
+ * @see https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#s-properties
+ */
+
+/**
+ * - In a declaration, the property name should be immediately followed by a
+ *   colon, then a single space, and then the property’s value.
+ * - Include a semi-colon at the end of all declarations, including the last
+ *   declaration in a declaration block.
+ */
+.test {
+  color: red;
+}
+
+/**
+ * When hex values are used for colors, use lowercase and, if possible, the
+ * shorthand syntax, e.g. #aaa. Colors may be expressed with any valid CSS
+ * value, such as hex value, color keyword, rgb() or rgba().
+ */
+.test {
+  background-color: #fff;
+}
+.test {
+  background-color: #030303;
+}
+.test {
+  background-color: rgba(100, 100, 100, 1);
+}
+
+/**
+ * For property values that require quotes, use double quotes instead of single
+ * quotes, e.g. font-family: "Arial Black", Arial, sans-serif; and
+ * content: " ";.
+ */
+.test {
+  content: " ";
+  font-family: "Arial Black", Arial, sans-serif;
+}
+
+/**
+ * If a property does not require quotes (e.g. url(), do not add them. This
+ * means background-image: url(path/image.png) instead of
+ * background-image: url("path/image.png")
+ */
+.test {
+  background-image: url(path/image.png);
+}
+
+/**
+ * Use rem units preceded by px units for a safe fallback, unless it creates an
+ * undesired effect.
+ */
+.test {
+  width: 24px;
+  width: 1.5rem;
+}
+
+/**
+ * Quote attribute values in selectors, e.g. input[type="checkbox"].
+ */
+.test[type="checkbox"] {
+  content: "";
+}
+
+/**
+ * Where allowed, avoid specifying units for zero-values, e.g. use margin: 0;
+ * instead of margin: 0px;.
+ */
+.test {
+  text-shadow: 0 0 2px #ddd;
+}
+
+/**
+ * Include a space after each comma in comma-separated property or function
+ * values.
+ */
+.test {
+  background: #000, #111, #222;
+}
+
+/**
+ * - Do not use spaces around the parentheses in a function,
+ * e.g. color: rgba(0, 0, 0, 0.8);
+ * - Use lower case function names, correct: color: rgba(0, 0, 0, 0.8);
+ * incorrect: color: RGBA(0, 0, 0, 0.8);
+ */
+.test {
+  color: rgba(0, 0, 0, 0.8);
+}

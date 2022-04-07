@@ -1,0 +1,24 @@
+/**
+ * @file
+ * Whitespace blank lines test.
+ *
+ * @see https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#s-blank-lines
+ */
+
+/**
+ * A longer comment describing this ruleset. Note
+ * the blank line before the docblock.
+ */
+.selector-4,
+.selector-5 {
+  background-color: lime;
+}
+
+/* This logical grouping of rulesets has no interleaving blank lines. */
+.profile {
+  margin: 16px 0;
+  margin: 1rem 0;
+}
+.profile__picture {
+  float: right; /* LTR */
+}

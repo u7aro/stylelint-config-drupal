@@ -1,0 +1,23 @@
+/**
+ * @file
+ * Format declaration order test.
+ *
+ * @see https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#s-declaration-order
+ */
+
+.selector {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  padding: 0.625rem;
+  color: #fff;
+  border: 1px solid #333;
+  background: #000;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+}

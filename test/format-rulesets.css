@@ -1,0 +1,22 @@
+/**
+ * @file
+ * Format rule sets test.
+ *
+ * @see https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#s-rulesets
+ */
+
+/**
+ * - Use one selector per line when a ruleset has a group of selectors separated
+ *   by commas.
+ * - The opening brace ({) of a ruleset’s declaration block should be on the
+ *   same line as the selector (or the same line as the last selector in a group
+ *   of selectors.) The opening brace should include a single space before it.
+ * - Place the closing brace (}) of a ruleset in the same column as the first
+ *   character in the selector of the ruleset.
+ * - Each declaration should be indented one level relative to its selector.
+ */
+.selector-alpha,
+.selector-beta {
+  counter-reset: section;
+  text-transform: small-caps;
+}

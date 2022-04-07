@@ -1,0 +1,29 @@
+/**
+ * @file
+ * Format exceptions and slight deviations test.
+ *
+ * @see https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#s-exceptions-and-slight-deviations
+ */
+
+/**
+ * Large blocks of single declarations can use a slightly different, single-line
+ * format. In this case, a space should be included after the opening brace and
+ * before the closing brace.
+ */
+.selector-1 { width: 10%; }
+.selector-2 { width: 20%; }
+.selector-3 { width: 30%; }
+
+/**
+ * Long, comma-separated property values—such as collections of gradients or
+ * shadows—can be arranged across multiple lines in an effort to improve
+ * readability and produce more useful diffs.
+ */
+.selector {
+  background-image:
+    linear-gradient(#fff, #ccc),
+    linear-gradient(#f3c, #4ec);
+  box-shadow:
+    1px 1px 1px #000,
+    2px 2px 1px 1px #ccc inset;
+}

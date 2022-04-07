@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Single-line comments test.
+ *
+ * @see https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#s-single-line-comments
+ */
+
+.example {
+  /* Override the default margins. */
+  margin: 0;
+}
+
+/* This is a variant of the .example component. */
+.example--item {
+  display: inline;
+}

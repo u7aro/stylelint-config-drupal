@@ -18,6 +18,9 @@
     "url": "https://github.com/u7aro/stylelint-config-drupal/issues"
   },
   "homepage": "https://github.com/u7aro/stylelint-config-drupal#readme",
+  "scripts": {
+    "test": "stylelint --formatter verbose --config ./index.js test/*.css"
+  },
   "dependencies": {
     "stylelint-config-standard": "^23.0.0",
     "stylelint-order": "^5.0.0"

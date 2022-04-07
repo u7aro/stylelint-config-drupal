@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Whitespace indentation test.
+ *
+ * @see https://www.drupal.org/docs/develop/standards/css/css-formatting-guidelines#s-indentation
+ */
+@media print {
+  /* This line is indented with 2 spaces, 2 spaces x 1 level of indentation. */
+  .example {
+    /* This line is indented with 4 spaces, 2 spaces x 2 levels of indentation. */
+    padding: 0;
+  }
+}
