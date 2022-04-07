@@ -1,6 +1,6 @@
 # stylelint-config-drupal
 
-You can easily use the Drupal core stylelint settings in your custom themes/modules.
+You can easily use the Drupal core stylelint configurations in your project or custom themes/modules.
 
 ## How to setup
 
@@ -10,7 +10,7 @@ Install stylelint and this package with Yarn.
 yarn add -D stylelint stylelint-config-drupal
 ```
 
-Create a .stylelintrc.json file as follows in your theme/custom module directory.
+Create a .stylelintrc.json file as follows in your project root or theme/custom module directory.
 
 ```json:.stylelintrc.json
 {
@@ -21,5 +21,5 @@ Create a .stylelintrc.json file as follows in your theme/custom module directory
 ## How to run
 
 ```shell
-./node_modules/bin/stylelint ./css
+./node_modules/.bin/stylelint ./css
 ```
